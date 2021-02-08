@@ -31,3 +31,12 @@ class ResizeIn(BaseModel):
 
 class ResizeOut(BaseModel):
     resize_out: str
+
+
+class LinkIn(BaseModel):
+    url: str
+
+
+class LinkOut(BaseModel):
+    link: str
+    html: str
